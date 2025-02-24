@@ -1,0 +1,219 @@
+<!-- first -: this is brand new html file -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- display hello world -->
+    Hello World, 
+    I am Shivam Shrivastav 
+
+
+    <!-- heading tags -: (h1-> biggest heading tags and h6-> smallest) -->
+    <!-- each headings have diff. sizes -->
+    <h1>This is h1 heading</h1>
+    <h2>This is h2 heading</h2>
+    <h3>This is h3 heading</h3>
+    <h4>This is h4 heading</h4>
+    <h5>This is h5 heading</h5>
+    <h6>This is h6 heading</h6>
+
+
+    <!-- paragraph tags -> used to create simple paragraph like text, it ignore extra spaces -->
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore nulla reiciendis ratione ex magnam? 
+        
+        
+        
+        
+        
+        
+        
+    Cupiditate eligendi modi veritatis at earum necessitatibus commodi officia, 
+    libero vero magnam similique possimus ullam aliquam aperiam laudantium excepturi porro 
+    tenetur est sequi eveniet autem nam temporibus tempore! Nisi autem, optio totam accusamus eius corrupti error.</p>
+
+    <!-- if you writes some normal text inside the body tag then no 
+    next/new lines gives to use, all text are writes in a single lines  -->
+
+    This is Shivam Shrivastav 
+    I am from Varanasi 
+    I am doing my B. Tech Degree from Greater Noida 
+
+    <!-- for new / next lines used -> break tags <br> -->
+    <br>
+    Hello
+    <br>
+    Shivam 
+    <br>
+
+    <!-- to adds extra space used -: html entity like for extra space -> &nbsp; -->
+
+    I am self motivated and learning  &nbsp; &nbsp; from my past mistakes and experiences 
+    
+    <!-- comment tag -: adds some extra piece of infomation  -->
+    <!-- ex-: heading, CURRENTLY ENROLLED IN FIFTH SEM -->
+
+    <!-- List Tag -: display info. in bullet / point format -->
+    <!-- 1-: unordered_list (ul) 2-: ordered_list(ol) -->
+
+    <!-- 1-: unordered_list -: no sequence number, represents in bullet points -->
+    <!-- list_item (li) -->
+
+    <!-- to change default values -: we can use "html attributes"-: adds extra property by using "type" method -->
+
+    <ul type="square">
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+    </ul>
+
+    <!-- 2-: same as ordered_list -: represents in sequence / numbers -->
+
+    <br>
+    <br>
+
+    <ol type="A">
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+    </ol>
+
+    <br>
+    <br>
+
+    <ol type="i" start="10" reversed="true">
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+    </ol>
+
+
+    <br>
+    <br>
+
+    <!-- horizontal lines used <hr> tag -: separate page section -->
+    <hr>
+
+    <!-- sublists inside another sublist, ordered_lists, unordered_lists etc. -->
+
+    <ol type="1">
+        <li>List item 1</li>
+        <li>List item 2</li>
+        <li>
+            <ol type="a">
+                <li>ABCD</li>
+                <li>EFGH</li>
+                <li>
+                    <ul type="circle">
+                        <li>1234</li>
+                        <li>5678</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>List item 3</li>
+        <li>List item 4</li>
+    </ol>
+
+
+    <br><br><br><br>
+
+    <!-- id attributes -: select only one html ele.s  -->
+    <!-- class attributes -: select group of html ele.s  -->
+
+    <ol type="1" id="100">
+        <li class="c1" >List item 1</li>
+        <li class="c2" >List item 2</li>
+        <p id="101" class="c3">Jay Shree Ram</p>
+        <p id="102" class="c4 c5 c6 c7">Yam Hai Hm</p>
+        <li>
+            <ol type="a">
+                <li>ABCD</li>
+                <li>EFGH</li>
+                <li>
+                    <ul type="circle">
+                        <li>1234</li>
+                        <li>5678</li>
+                    </ul>
+                </li>
+            </ol>
+        </li>
+        <li>List item 3</li>
+        <li>List item 4</li> 
+    </ol>
+
+    <br><br><br>
+    <hr>
+
+    <!-- style attribute -: directly apply css styling to our ele.s  -->
+    <!-- change font color -->
+
+    <h1 style="color:red">Shivam Shrivastav</h1>
+
+
+    <h1 style="color:red; border: 1px solid green">Shivam Shrivastav</h1>
+    <br><br>
+
+    <!-- anchor tag -: using anchor tag you will be redirected to another documents using given links -->
+    <!-- href and target is a attributes -->
+
+    <a href="https://www.google.com">Go To Google</a>
+
+    <br><br>
+
+
+    <!-- anchor tag is a inline ele.s means they don't starts from new lines, 
+    they starts from back to back, use <br> tag to gives next line -->
+    <a href="https://www.google.com" target="_blank">Google</a>
+    <br>
+    <a href="https://www.yahoo.com" target="_blank">Yahoo</a>
+    <br>
+    <a href="https://www.amazon.com" target="_blank">Amazon</a>
+
+
+
+    <br><br>
+
+    <!-- format text -: -->
+
+    <b>Bold text</b>
+    <br>
+    <i>Italic text</i>
+    <br>
+    <u>Underline text</u>
+    <br>
+    <mark>Highlight Somethings</mark>
+    <br><br>
+
+    <!-- superscript and subscript tags -: -->
+    <p>E=mc <sup>2</sup> this is superscript tag</p>
+    <br>
+    <p>H<sub>2</sub>O this is subscript tag</p>
+    <br>
+
+    <!-- strick somethings -> to cut the text -->
+    <Strike>Strickthrough</Strike>
+    <br>
+    <del>Also Used del tag for strick</del>
+    <br><br>
+
+    <!-- small and big tags  -->
+
+    <small>This is small tag </small>
+    <br>
+    <big>This is big tag </big>
+
+    <br><br>
+    <strong>Bold text also using strong tag</strong>
+    <br><br>
+    
+</body>
+</html>
